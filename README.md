@@ -1,3 +1,3 @@
-# My Converters
+# Converter app
 
-**Right now the converters only work in the console**
+**It works with decimal, hexadecimal, binary and roman systems**
