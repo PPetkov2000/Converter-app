@@ -3,10 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Converters</title>
   </head>
   <body>
-    <h1>In process...</h1>
+    <div class="container">
+      <h1>Converter</h1>
+      <div class="converter">
+        <div>
+          <span>From: </span>
+          <select id="convertFrom" class="select"></select>
+        </div>
+        <br />
+        <div>
+          <span>To: </span>
+          <select id="convertTo" class="select"></select>
+        </div>
+        <input
+          type="text"
+          id="input"
+          class="input"
+          placeholder="Enter number"
+        />
+        <button id="convert" class="convert">Convert</button>
+      </div>
+      <h2 id="result">Result:</h2>
+    </div>
 
     <script src="app.js"></script>
   </body>
