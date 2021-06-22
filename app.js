@@ -1,4 +1,5 @@
-import { generateOptions } from './utils.js'
+// import { generateOptions } from './utils.js'
+// import { convertFromDecimal, convertFromHexadecimal, convertFromBinary, convertFromRoman } from "./convert.js"
 
 const convertFrom = document.querySelector("#convertFrom")
 const convertTo = document.querySelector("#convertTo")
