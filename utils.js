@@ -15,4 +15,5 @@ function generateOptions(systems, parent) {
   })
 }
 
-export { capitalize, generateOption, generateOptions }
+module.exports = { capitalize, generateOption, generateOptions }
+// export { capitalize, generateOption, generateOptions }
