@@ -4,7 +4,7 @@
   "description": "**It works with decimal, hexadecimal, binary and roman systems**",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
